@@ -20,7 +20,7 @@ public class HelloAppEngine extends HttpServlet {
     response.setContentType("text/plain");
     response.setCharacterEncoding("UTF-8");
 
-    response.getWriter().print("Hello Parag Engine!\r\n");
+    response.getWriter().print("Hello App Engine!\r\n");
 
   }
 }
